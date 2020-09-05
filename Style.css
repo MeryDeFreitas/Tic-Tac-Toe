@@ -1,0 +1,44 @@
+.grid{
+    display: flex;
+    /* Esto los pone uno al lado del otro */
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* Como cada div vale 200 y quiero 3 filas y columnas, aqui debe decir 600*/
+    width: 610px;
+    height: 610px;
+    background-color: black;
+}
+
+.grid div{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    margin-bottom: 5px;
+}
+
+.playerX{
+    background-image: url('x.jpg');
+}
+
+.playerO{
+    background-image: url('o.jpg');
+}
+
+h1{
+    font-size: 60px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgba(0, 0, 0, .2);;
+    background: center / cover url('universe.jpg') no-repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+h3{
+    color: rgba(0, 0, 0, .2);;
+    background: center / cover url('universe.jpg') no-repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
