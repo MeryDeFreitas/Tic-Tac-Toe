@@ -134,6 +134,6 @@ h3{
     .grid div{
         width: 100px;
         height: 100px;
-        background-size: auto;
+        background-size: 100px;
     }
 }
